@@ -1,4 +1,4 @@
-# React Pure Component Dev Starter
+# React Pure Component Starter
 
 [React 0.14](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html) introduced the ability to use pure functions as components. The react team calls them **functional components**.
 
