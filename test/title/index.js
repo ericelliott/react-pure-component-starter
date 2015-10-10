@@ -8,7 +8,6 @@ import createTitle from '../../source/title';
 const Title = createTitle(React);
 const render = reactDom.renderToStaticMarkup;
 
-console.log(render);
 test('Title', assert => {
   const titleText = 'Hello!';
   const props = {
