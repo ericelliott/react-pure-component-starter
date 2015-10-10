@@ -1,0 +1,59 @@
+{
+  "name": "react-transform-boilerplate",
+  "version": "1.0.0",
+  "description": "A new Webpack boilerplate with hot reloading React components, and error handling on module and component level.",
+  "scripts": {
+    "clean": "rimraf build",
+    "build:webpack": "NODE_PATH='source/modules' webpack --config webpack.config.prod.js",
+    "build": "npm run clean && npm run build:webpack",
+    "start": "node devServer.js",
+    "test": "babel-node ./test/index.js",
+    "lint": "eslint source",
+    "watch": "watch 'clear && npm run lint -s && npm run test -s' source test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-transform-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack",
+    "babel",
+    "react-transform"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-transform-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gaearon/react-transform-boilerplate",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "babel-plugin-react-transform": "^1.1.1",
+    "cheerio": "^0.19.0",
+    "eslint": "^1.3.1",
+    "eslint-plugin-react": "^2.3.0",
+    "express": "^4.13.3",
+    "redbox-react": "^1.0.1",
+    "rimraf": "^2.4.3",
+    "tape": "^4.2.1",
+    "watch": "^0.16.0",
+    "webpack": "^1.9.6",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
