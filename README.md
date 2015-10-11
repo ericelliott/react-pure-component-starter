@@ -15,7 +15,7 @@ Pure component factories lets you inject your React instance into the component 
 
 I recommend that all your reusable components use factory exports. It's really easy. A regular pure component looks like this:
 
-```
+```js
 export default (props) => <h1 {...props }>{ props.title }</h1>;
 ```
 
