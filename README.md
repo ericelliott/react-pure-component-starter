@@ -95,7 +95,7 @@ So, react's DOM utilities now live in `react-dom`, which is split in two:
 import test from 'tape';
 ```
 
-Tape is my favorite testrunner, because it keeps everything **very simple**. For details, read [Why I Use Tape Instead of Mocha, and So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4).
+Tape is a great testrunner because it keeps everything **very simple**. For details, read [Why I Use Tape Instead of Mocha, and So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4).
 
 ### Cheerio
 
