@@ -87,7 +87,7 @@ React 0.14 split the DOM utilities out of the main React package. There are seve
 So, react's DOM utilities now live in `react-dom`, which is split in two:
 
 * `react-dom/server`
-* `react-dom/client
+* `react-dom/client`
 
 ### Tape
 
