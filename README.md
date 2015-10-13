@@ -11,9 +11,9 @@ This repo demonstrates pure components. It's based on the [React Transform Boile
 
 ## Pure Component Factories
 
-Pure component factories lets you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally).
+Pure component factories let you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally).
 
-I recommend that all your reusable components use factory exports. It's really easy. A regular pure component looks like this:
+I recommend that all your reusable components export factories and take a React instance as a dependency. It's really easy. A regular pure component looks like this:
 
 ```js
 export default (props) => <h1 {...props }>{ props.title }</h1>;
