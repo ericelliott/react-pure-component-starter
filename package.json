@@ -8,7 +8,7 @@
     "build": "npm run clean && npm run build:webpack",
     "start": "node devServer.js",
     "test": "babel-node ./test/index.js",
-    "lint": "eslint source",
+    "lint": "eslint source test",
     "watch": "watch 'clear && npm run lint -s && npm run test -s' source test"
   },
   "repository": {

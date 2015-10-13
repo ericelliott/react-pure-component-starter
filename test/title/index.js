@@ -13,13 +13,13 @@ test('Title', assert => {
   const props = {
     title: titleText,
     className: 'title'
-  }
+  };
   const re = new RegExp(titleText, 'g');
-  const el = <Title title={ titleText } />;
+  const el = <Title { ...props } />;
   const $ = dom.load(render(el));
   const output = $('.title').html();
 
-  const actual = re.test(titleText);
+  const actual = re.test(output);
   const expected = true;
 
   assert.equal(actual, expected,
