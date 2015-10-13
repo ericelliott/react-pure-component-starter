@@ -11,11 +11,11 @@ This repo demonstrates pure components. It's based on the [React Transform Boile
 
 ## Pure Component Factories
 
-Pure component factories lets you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally).
+Pure component factories let you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally).
 
-I recommend that all your reusable components use factory exports. It's really easy. A regular pure component looks like this:
+I recommend that all your reusable components export factories and take a React instance as a dependency. It's really easy. A regular pure component looks like this:
 
-```
+```js
 export default (props) => <h1 {...props }>{ props.title }</h1>;
 ```
 
@@ -87,7 +87,7 @@ React 0.14 split the DOM utilities out of the main React package. There are seve
 So, react's DOM utilities now live in `react-dom`, which is split in two:
 
 * `react-dom/server`
-* `react-dom/client
+* `react-dom/client`
 
 ### Tape
 
@@ -95,7 +95,7 @@ So, react's DOM utilities now live in `react-dom`, which is split in two:
 import test from 'tape';
 ```
 
-Tape is my favorite testrunner, because it keeps everything **very simple**. For details, read [Why I Use Tape Instead of Mocha, and So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4).
+Tape is a great testrunner because it keeps everything **very simple**. For details, read [Why I Use Tape Instead of Mocha, and So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4).
 
 ### Cheerio
 
