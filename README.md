@@ -11,7 +11,7 @@ This repo demonstrates pure components. It's based on the [React Transform Boile
 
 ## Getting Started
 
-### Clone the repo & install.
+**Clone the repo & install:**
 
 ```sh
 git clone git@github.com:ericelliott/react-pure-component-starter.git
@@ -19,13 +19,13 @@ cd react-pure-component-starter
 npm install
 ```
 
-### Start the dev server and follow instructions:
+**Start the dev server and follow instructions:**
 
 ```sh
 npm start
 ```
 
-### In another terminal window, start the dev console for lint/test feedback when you save files:
+**In another terminal window, start the dev console for lint/test feedback when you save files:**
 
 ```sh
 npm run watch
