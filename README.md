@@ -9,6 +9,29 @@ This repo demonstrates pure components. It's based on the [React Transform Boile
 * Hot reloading
 * Unit test example with tape, demonstrating an easy way to test pure components.
 
+## Getting Started
+
+### Clone the repo & install.
+
+```sh
+git clone git@github.com:ericelliott/react-pure-component-starter.git
+cd react-pure-component-starter
+npm install
+```
+
+### Start the dev server and follow instructions:
+
+```sh
+npm start
+```
+
+### In another terminal window, start the dev console for lint/test feedback when you save files:
+
+```sh
+npm run watch
+```
+
+
 ## Pure Component Factories
 
 Pure component factories let you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally).
