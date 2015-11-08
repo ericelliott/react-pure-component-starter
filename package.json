@@ -1,6 +1,6 @@
 {
   "name": "react-transform-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A new Webpack boilerplate with hot reloading React components, and error handling on module and component level.",
   "scripts": {
     "clean": "rimraf build",
