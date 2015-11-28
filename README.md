@@ -1,4 +1,7 @@
 # React Pure Component Starter
+[![Circle CI](https://circleci.com/gh/ericelliott/react-pure-component-starter.svg?style=svg)](https://circleci.com/gh/ericelliott/react-pure-component-starter)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub Stars](https://img.shields.io/github/stars/ericelliott/react-pure-component-starter.svg)
 
 [React 0.14](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html) introduced the ability to use pure functions as components. The react team calls them **functional components** in their announcement. The rest of the world calls them **pure components**.
 
