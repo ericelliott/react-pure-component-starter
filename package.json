@@ -10,7 +10,8 @@
     "lint": "eslint source test",
     "pretest": "npm run lint",
     "test": "babel-node ./test/index.js",
-    "watch": "watch 'clear && npm run test -s' source test"
+    "watch": "watch 'clear && npm run test -s' source test",
+    "update": "updtr"
   },
   "repository": {
     "type": "git",
@@ -48,6 +49,7 @@
     "redbox-react": "1.2.0",
     "rimraf": "2.4.4",
     "tape": "4.2.2",
+    "updtr": "0.1.3",
     "watch": "0.16.0",
     "webpack": "1.12.9",
     "webpack-dev-middleware": "1.4.0",
