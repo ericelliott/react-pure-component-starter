@@ -1,6 +1,6 @@
 # React Pure Component Starter
 
-[React 0.14](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html) introduced the ability to use pure functions as components. The react team calls them **functional components**.
+[React 0.14](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html) introduced the ability to use pure functions as components. The react team calls them **functional components** in their announcement. The rest of the world calls them **pure components**.
 
 This repo demonstrates pure components. It's based on the [React Transform Boilerplate](https://github.com/gaearon/react-transform-boilerplate) and features:
 
