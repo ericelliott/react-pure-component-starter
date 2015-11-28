@@ -7,9 +7,10 @@
     "build:webpack": "NODE_PATH='source/modules' webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
     "start": "node devServer.js",
-    "test": "babel-node ./test/index.js",
     "lint": "eslint source test",
-    "watch": "watch 'clear && npm run lint -s && npm run test -s' source test"
+    "pretest": "npm run lint",
+    "test": "babel-node ./test/index.js",
+    "watch": "watch 'clear && npm run test -s' source test"
   },
   "repository": {
     "type": "git",
