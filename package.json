@@ -49,7 +49,7 @@
     "redbox-react": "1.2.0",
     "rimraf": "2.4.4",
     "tape": "4.2.2",
-    "updtr": "0.1.3",
+    "updtr": "0.1.4",
     "watch": "0.16.0",
     "webpack": "1.12.9",
     "webpack-dev-middleware": "1.4.0",
