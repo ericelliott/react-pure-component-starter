@@ -1,1 +1,1 @@
-export default React => (props) => <h1 {...props }>{ props.title }</h1>;
+export default React => (props) => <h1>{ props.title }</h1>;

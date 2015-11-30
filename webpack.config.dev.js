@@ -3,6 +3,9 @@ var webpack = require('webpack');
 
 module.exports = {
   devtool: 'eval',
+  resolve: {
+    root: __dirname + '/source'
+  },
   entry: [
     'webpack-hot-middleware/client',
     './source/index'
