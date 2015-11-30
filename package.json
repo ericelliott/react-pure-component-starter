@@ -1,6 +1,6 @@
 {
   "name": "react-transform-boilerplate",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A new Webpack boilerplate with hot reloading React components, and error handling on module and component level.",
   "scripts": {
     "clean": "rimraf build",
@@ -61,7 +61,6 @@
     "webpack-hot-middleware": "2.5.1"
   },
   "dependencies": {
-    "babel-runtime": "6.2.0",
     "react": "0.14.3",
     "react-dom": "0.14.3"
   }
