@@ -2,4 +2,4 @@ machine:
   node:
     version: 4.2.2
   post:
-    - npm install -g
+    - npm install -g npm
