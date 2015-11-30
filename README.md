@@ -40,13 +40,13 @@ Pure component factories let you inject your React instance into the component s
 I recommend that all your reusable components export factories and take a React instance as a dependency. It's really easy. A regular pure component looks like this:
 
 ```js
-export default (props) => <h1 {...props }>{ props.title }</h1>;
+export default (props) => <h1>{ props.title }</h1>;
 ```
 
 To add the factory wrapper for React injection, just insert another arrow function with a `React` parameter:
 
 ```js
-export default React => (props) => <h1 {...props }>{ props.title }</h1>;
+export default React => (props) => <h1>{ props.title }</h1>;
 ```
 
 If you're still confused, this desugars to this ordinary ES5:
@@ -58,7 +58,7 @@ module.exports = function (React) {
   return function (props) {
     return React.createElement(
       "h1",
-      props,
+      null,
       props.title
     );
   };
@@ -70,7 +70,7 @@ Yeah. Arrow functions rock.
 In case you blinked and missed it, the ES6 factory again:
 
 ```js
-export default React => (props) => <h1 {...props }>{ props.title }</h1>;
+export default React => (props) => <h1>{ props.title }</h1>;
 ```
 
 As you can see, React is a parameter, but it doesn't get explicitly mentioned anywhere in the rest of the line... and there are no other lines. So why do we need it?
@@ -80,7 +80,7 @@ Remember that [**JSX is not real DOM markup**](https://medium.com/javascript-sce
 ```js
 React.createElement(
   "h1",
-  props,
+  null,
   props.title
 );
 ```
