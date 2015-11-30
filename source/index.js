@@ -4,7 +4,8 @@ import createApp from './App';
 
 const App = createApp(React);
 const props = {
-  foo: 'yay!'
+  foo: 'yay!  🎸🎶',
+  title: 'Pure Components Rock'
 };
 
 render(
