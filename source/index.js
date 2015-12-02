@@ -3,9 +3,11 @@ import { render } from 'react-dom';
 import createApp from './App';
 
 const App = createApp(React);
+
 const props = {
   foo: 'yay!  🎸🎶',
-  title: 'Pure Components Rock'
+  title: 'Pure Components Rock',
+  helloClass: 'hello'
 };
 
 render(
