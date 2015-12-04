@@ -91,7 +91,7 @@ That compiled output uses React, and expects it to be available inside the compo
 
 I recommend Test Driven Development (TDD). Write your tests first. Learn how to write unit tests: Read [5 Questions Every Unit Test Must Answer](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d).
 
-Unit testing React components is a lot easier than it sounds. Let's look at the imports for the `title` example in `test/title/index.js`:
+Unit testing React components is a lot easier than it sounds. Let's look at the imports for the `title` example in `test/components/title/index.js`:
 
 ```js
 import React from 'react';
