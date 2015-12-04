@@ -1,10 +1,21 @@
 export default React => {
-  const hello = ({ helloClass }) => {
-    return <p className={ helloClass }>Hello, World!</p>;
+
+  const {
+    string, shape, func
+  } = React.PropTypes;
+
+  const hello = ({ helloClass, subject = 'World', actions: { setMode } }) => {
+    return (
+      <p className={ helloClass } onClick={ () => setMode('edit') }>Hello, { subject }!</p>
+    );
   };
 
   hello.propTypes = {
-    helloClass: React.PropTypes.string.isRequired
+    helloClass: string.isRequired,
+    subject: string,
+    actions: shape({
+      setMode: func.isRequired
+    })
   };
 
   return hello;

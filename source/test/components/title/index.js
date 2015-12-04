@@ -1,12 +1,10 @@
 import React from 'react';
-import reactDom from 'react-dom/server';
 import test from 'tape';
-import dom from 'cheerio';
+import { shallow } from 'reagent';
 
 import createTitle from 'components/title';
 
 const Title = createTitle(React);
-const render = reactDom.renderToStaticMarkup;
 
 test('Title', assert => {
   const titleText = 'Hello!';
@@ -15,9 +13,8 @@ test('Title', assert => {
     titleClass: 'title'
   };
   const re = new RegExp(titleText, 'g');
-  const el = <Title { ...props } />;
-  const $ = dom.load(render(el));
-  const output = $('.title').html();
+  const $ = shallow(<Title { ...props } />);
+  const output = $.find('.title').html();
 
   const actual = re.test(output);
   const expected = true;
