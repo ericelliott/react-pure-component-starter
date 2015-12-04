@@ -4,19 +4,17 @@ export default (
     state = { mode: 'display', subject: 'World' }, { mode, subject, type } = {}
   ) => {
 
-  const actions = {
-    SET_MODE () {
+  switch (type) {
+    case 'SET_MODE':
       return assign({}, state, {
         mode
       });
-    },
-    SET_SUBJECT () {
+    case 'SET_SUBJECT':
       return assign({}, state, {
         subject
       });
-    }
-  };
+    default:
+      return state;
+  }
 
-  if (!actions[type]) return state;
-  return actions[type]();
 };
