@@ -55,7 +55,7 @@
     "jsdom": "7.1.1",
     "react-addons-test-utils": "0.14.3",
     "react-dom": "0.14.3",
-    "reagent": "1.0.0",
+    "reagent": "1.0.1",
     "redbox-react": "1.2.0",
     "redux": "3.0.4",
     "rimraf": "2.4.4",
