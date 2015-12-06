@@ -52,7 +52,7 @@
     "eslint": "1.10.3",
     "eslint-plugin-react": "3.11.3",
     "express": "4.13.3",
-    "jsdom": "7.1.1",
+    "jsdom": "7.2.0",
     "react-addons-test-utils": "0.14.3",
     "react-dom": "0.14.3",
     "reagent": "1.0.0",
