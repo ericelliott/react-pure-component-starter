@@ -1,6 +1,6 @@
 import React from 'react';
 import test from 'tape';
-import { shallow } from 'reagent';
+import { shallow } from 'enzyme';
 
 import hello from 'components/hello';
 import createActions from 'test-fixtures/components/hello/create-actions';
