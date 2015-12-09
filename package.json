@@ -60,7 +60,7 @@
     "redux": "3.0.4",
     "rimraf": "2.4.4",
     "tape": "4.2.2",
-    "updtr": "0.1.5",
+    "updtr": "0.1.6",
     "watch": "0.16.0",
     "webpack": "1.12.9",
     "webpack-dev-middleware": "1.4.0",
