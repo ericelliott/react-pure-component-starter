@@ -58,7 +58,7 @@
     "react-dom": "0.14.3",
     "redbox-react": "1.2.0",
     "redux": "3.0.5",
-    "rimraf": "2.4.4",
+    "rimraf": "2.4.5",
     "tape": "4.2.2",
     "updtr": "0.1.6",
     "watch": "0.17.1",
