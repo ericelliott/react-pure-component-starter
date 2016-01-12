@@ -62,7 +62,7 @@
     "tape": "4.4.0",
     "updtr": "0.1.6",
     "watch": "0.17.1",
-    "webpack": "1.12.10",
+    "webpack": "1.12.11",
     "webpack-dev-middleware": "1.4.0",
     "webpack-hot-middleware": "2.6.0"
   },
