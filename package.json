@@ -64,7 +64,7 @@
     "watch": "0.17.1",
     "webpack": "1.12.12",
     "webpack-dev-middleware": "1.5.1",
-    "webpack-hot-middleware": "2.6.3"
+    "webpack-hot-middleware": "2.6.4"
   },
   "dependencies": {
     "react": "0.14.6",
