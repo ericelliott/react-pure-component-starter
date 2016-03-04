@@ -39,7 +39,7 @@
   "homepage": "https://github.com/gaearon/react-transform-boilerplate",
   "devDependencies": {
     "babel-cli": "6.5.1",
-    "babel-core": "6.5.0",
+    "babel-core": "6.6.5",
     "babel-eslint": "4.1.8",
     "babel-loader": "6.2.2",
     "babel-plugin-react-transform": "2.0.0",
