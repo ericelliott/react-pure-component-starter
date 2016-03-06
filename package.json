@@ -59,7 +59,7 @@
     "redbox-react": "1.2.2",
     "redux": "3.3.1",
     "rimraf": "2.5.1",
-    "tape": "4.4.0",
+    "tape": "4.5.1",
     "updtr": "0.1.7",
     "watch": "0.17.1",
     "webpack": "1.12.13",
