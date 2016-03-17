@@ -1,11 +1,13 @@
 import React from 'react';
+import reactDom from 'react-dom/server';
 import test from 'tape';
-import { shallow } from 'enzyme';
+import dom from 'cheerio';
 
 import hello from 'components/hello';
 import createActions from 'test-fixtures/components/hello/create-actions';
 
 const Hello = hello(React);
+const render = reactDom.renderToStaticMarkup;
 
 test('Hello', nest => {
   nest.test('...with no parameters', assert => {
@@ -13,11 +15,13 @@ test('Hello', nest => {
 
     const text = '<p>Hello, World!</p>';
     const re = new RegExp(text, 'g');
+
     const props = {
       actions: createActions()
     };
 
-    const $ = shallow(<Hello { ... props } />);
+    const el = <Hello { ...props } />;
+    const $ = dom.load(render(el));
     const output = $.html();
 
     const actual = re.test(output);
@@ -38,7 +42,9 @@ test('Hello', nest => {
       subject: 'React',
       actions: createActions()
     };
-    const $ = shallow(<Hello { ...props }/>);
+
+    const el = <Hello { ...props } />;
+    const $ = dom.load(render(el));
     const output = $.html();
 
     const actual = re.test(output);
