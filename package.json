@@ -63,7 +63,7 @@
     "updtr": "0.1.10",
     "watch": "0.17.1",
     "webpack": "1.12.13",
-    "webpack-dev-middleware": "1.5.1",
+    "webpack-dev-middleware": "1.6.0",
     "webpack-hot-middleware": "2.10.0"
   },
   "dependencies": {
