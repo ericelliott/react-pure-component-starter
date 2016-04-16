@@ -53,7 +53,7 @@
     "eslint": "1.10.3",
     "eslint-plugin-react": "4.2.3",
     "express": "4.13.4",
-    "jsdom": "8.3.0",
+    "jsdom": "8.4.0",
     "react-addons-test-utils": "0.14.8",
     "react-dom": "0.14.8",
     "redbox-react": "1.2.2",
