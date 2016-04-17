@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  devtool: 'eval',
+  devtool: 'cheap-eval-source-map',
   resolve: {
     root: __dirname + '/source'
   },
@@ -10,10 +10,14 @@ module.exports = {
     'webpack-hot-middleware/client',
     './source/index'
   ],
+  externals: {
+    'react': 'React',
+    'react-dom': 'ReactDOM'
+  },
   output: {
     path: path.join(__dirname, 'build'),
     filename: 'index.js',
-    publicPath: '/static/'
+    publicPath: '/build/'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
