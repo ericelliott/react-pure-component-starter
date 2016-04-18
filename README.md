@@ -7,7 +7,6 @@ This repo demonstrates pure components. It's based on the [React Transform Boile
 
 * Examples of pure components.
 * Pure component factories, so you can use a single React instance, even if you load React from CDN.
-* Hot reloading
 * Unit test example with tape, demonstrating an easy way to test pure components.
 
 ## Getting Started
