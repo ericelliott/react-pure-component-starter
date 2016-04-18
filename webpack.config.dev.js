@@ -1,5 +1,4 @@
 var path = require('path');
-var webpack = require('webpack');
 
 module.exports = {
   devtool: 'eval',
@@ -7,7 +6,6 @@ module.exports = {
     root: __dirname + '/source'
   },
   entry: [
-    'webpack-hot-middleware/client',
     './source/index'
   ],
   output: {
@@ -15,10 +13,6 @@ module.exports = {
     filename: 'index.js',
     publicPath: '/static/'
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
-  ],
   module: {
     loaders: [{
       test: /\.js$/,
