@@ -52,7 +52,7 @@
     "react-addons-test-utils": "15.0.1",
     "react-dom": "15.0.1",
     "redbox-react": "1.2.3",
-    "redux": "3.4.0",
+    "redux": "3.5.0",
     "rimraf": "2.5.2",
     "tape": "4.5.1",
     "updtr": "0.1.10",
