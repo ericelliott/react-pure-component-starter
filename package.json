@@ -50,7 +50,6 @@
     "express": "4.13.4",
     "jsdom": "8.4.0",
     "react-addons-test-utils": "15.0.1",
-    "react-dom": "15.0.1",
     "redbox-react": "1.2.3",
     "redux": "3.5.0",
     "rimraf": "2.5.2",
@@ -61,6 +60,6 @@
   },
   "dependencies": {
     "react": "15.0.1",
-    "react-dom": "0.14.3"
+    "react-dom": "15.0.1"
   }
 }
