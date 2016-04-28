@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/gaearon/react-transform-boilerplate",
   "devDependencies": {
-    "babel-cli": "6.7.5",
-    "babel-core": "6.7.6",
-    "babel-eslint": "6.0.3",
+    "babel-cli": "6.7.7",
+    "babel-core": "6.7.7",
+    "babel-eslint": "6.0.4",
     "babel-loader": "6.2.4",
     "babel-plugin-react-transform": "2.0.2",
     "babel-plugin-transform-runtime": "6.7.5",
@@ -44,14 +44,10 @@
     "babel-preset-stage-0": "6.5.0",
     "cheerio": "0.20.0",
     "deep-freeze": "0.0.1",
-    "enzyme": "2.2.0",
-    "eslint": "1.10.3",
-    "eslint-plugin-react": "4.3.0",
-    "express": "4.13.4",
-    "jsdom": "8.4.0",
+    "eslint": "2.8.0",
+    "eslint-plugin-react": "5.0.1",
     "react-addons-test-utils": "15.0.1",
     "redbox-react": "1.2.3",
-    "redux": "3.5.0",
     "rimraf": "2.5.2",
     "tape": "4.5.1",
     "updtr": "0.1.10",
@@ -60,6 +56,8 @@
   },
   "dependencies": {
     "react": "15.0.1",
-    "react-dom": "15.0.1"
+    "redux": "3.5.2",
+    "react-dom": "15.0.1",
+    "express": "4.13.4"
   }
 }
