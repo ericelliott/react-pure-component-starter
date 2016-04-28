@@ -52,7 +52,8 @@
     "tape": "4.5.1",
     "updtr": "0.1.10",
     "watch": "0.17.1",
-    "webpack": "1.13.0"
+    "webpack": "1.13.0",
+    "webpack-dev-middleware": "1.6.1"
   },
   "dependencies": {
     "react": "15.0.1",
