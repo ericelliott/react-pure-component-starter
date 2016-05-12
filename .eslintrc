@@ -77,7 +77,7 @@
     "no-catch-shadow": [2],
     "no-cond-assign": [2],
     "no-console": [0],
-    "no-constant-condition": [1],
+    "no-constant-condition": [0],
     "no-continue": [2],
     "no-control-regex": [2],
     "no-debugger": [2],
