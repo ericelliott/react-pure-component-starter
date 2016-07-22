@@ -19,7 +19,8 @@ cd react-pure-component-starter
 npm install
 ```
 
-**Start the dev server and follow instructions:**
+**Optionally set environment variables HOST and PORT, start the dev server and follow instructions:**
+(As of this writing, Cloud9 (c9.io): HOST='0.0.0.0', PORT=8080; Nitrous.io: HOST='0.0.0.0', PORT=3000.  The environment variables can be set locally in bash terminal using *export* (e.g., export PORT=8080).)
 
 ```sh
 npm start
