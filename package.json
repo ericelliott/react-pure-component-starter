@@ -8,8 +8,7 @@
     "build": "npm run clean && npm run build:webpack",
     "start": "NODE_PATH='source' node devServer.js",
     "debug": "NODE_PATH='source' echo 'Nothing? `npm install -g iron-node`' && iron-node source/debug.js",
-    "lint": "eslint source",
-    "pretest": "npm run lint",
+
     "test": "NODE_PATH='source' babel-node source/test/index.js",
     "watch": "watch 'clear && npm run test -s' source",
     "update": "updtr"
