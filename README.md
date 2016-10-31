@@ -42,9 +42,6 @@ npm start
 npm run watch
 ```
 
-
-**NOTE: Currently not supported on Windows.**
-
 ## Pure Component Factories
 
 Pure component factories let you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally).
