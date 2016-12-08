@@ -44,7 +44,7 @@ npm run watch
 
 ## Pure Component Factories
 
-Pure component factories let you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally).
+Pure component factories let you inject your React instance into the component so that you can share a single React instance across your entire app -- even if you load React from CDN for client use (which may save lots of users time, because they'll already have it cached locally). To get a better understanding of why this is important see [Two Reacts Won’t Be Friends](https://medium.com/@dan_abramov/two-weird-tricks-that-fix-react-7cf9bbdef375#95b7) by Dan Abramov.
 
 I recommend that all your reusable components export factories and take a React instance as a dependency. It's really easy. A regular pure component looks like this:
 
