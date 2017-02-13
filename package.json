@@ -11,7 +11,7 @@
     "lint": "eslint source",
     "pretest": "npm run lint",
     "test": "cross-env NODE_PATH='source' babel-node source/test/index.js",
-    "watch": "watch 'clear && npm run test -s' source",
+    "watch": "watch \"clear && npm run test -s\" source",
     "update": "updtr"
   },
   "repository": {
@@ -43,6 +43,7 @@
     "babel-preset-react": "6.5.0",
     "babel-preset-stage-0": "6.5.0",
     "cheerio": "0.20.0",
+    "clear-cli": "^1.0.1",
     "cross-env": "3.1.3",
     "deep-freeze": "0.0.1",
     "eslint": "2.8.0",
