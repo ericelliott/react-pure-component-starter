@@ -115,7 +115,7 @@ The first line pulls in React, which you'll need to pass into the component fact
 ### react-dom
 
 ```js
-import reactDom from 'react-dom/server'
+import reactDom from 'react-dom/server';
 ````
 
 React 0.14 split the DOM utilities out of the main React package. There are several reasons for this change. One of the more important reasons is that React is not always used to render HTML DOM. For instance, Netflix uses it to render to an in-house rendering library called [Gibbon](https://www.youtube.com/watch?v=eNC0mRYGWgc), and Facebook has another framework called [React Native](https://facebook.github.io/react-native/), which lets you build native user interfaces on mobile using JavaScript, sharing much of the same code and architecture with your web and server apps.
