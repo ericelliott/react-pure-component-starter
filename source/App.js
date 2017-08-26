@@ -12,21 +12,24 @@ store.subscribe(() => {
   console.log(store.getState());
 });
 
-export default React => ({ foo, ...props }) => {
+export default React => {
   const Title = createTitle(React);
   const Hello = createHello(React);
-  const helloProps = {
-    ...props,
-    actions: {
-      setMode
-    }
-  };
+  
+  return ({ foo, ...props }) => {
+    const helloProps = {
+      ...props,
+      actions: {
+        setMode
+      }
+    };
 
-  return (
-    <div className="content">
-      <Title { ...props } />
-      <Hello { ...helloProps } />
-      <p>Content goes here: { foo }</p>
-    </div>
-  );
+    return (
+      <div className="content">
+        <Title { ...props } />
+        <Hello { ...helloProps } />
+        <p>Content goes here: { foo }</p>
+      </div>
+    );
+  };
 };
