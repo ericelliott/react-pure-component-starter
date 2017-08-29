@@ -15,7 +15,7 @@ store.subscribe(() => {
 export default React => {
   const Title = createTitle(React);
   const Hello = createHello(React);
-  
+
   return ({ foo, ...props }) => {
     const helloProps = {
       ...props,
