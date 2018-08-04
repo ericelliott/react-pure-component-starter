@@ -60,7 +60,7 @@
   "dependencies": {
     "react": "15.0.1",
     "redux": "3.5.2",
-    "react-dom": "15.0.1",
+    "react-dom": "16.0.1",
     "express": "4.15.3"
   }
 }
