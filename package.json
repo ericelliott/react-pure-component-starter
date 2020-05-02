@@ -12,7 +12,9 @@
     "pretest": "npm run lint",
     "test": "cross-env NODE_PATH='source' babel-node source/test/index.js",
     "watch": "watch \"clear && npm run test -s\" source",
-    "update": "updtr"
+    "update": "updtr",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -61,6 +63,8 @@
     "react": "15.0.1",
     "redux": "3.5.2",
     "react-dom": "15.0.1",
-    "express": "4.15.3"
-  }
+    "express": "4.15.3",
+    "snyk": "^1.316.2"
+  },
+  "snyk": true
 }
